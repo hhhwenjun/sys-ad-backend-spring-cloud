@@ -10,6 +10,7 @@
     <modules>
         <module>ad-eureka</module>
         <module>ad-gateway</module>
+        <module>imooc-ad-service</module>
     </modules>
 
     <packaging>pom</packaging>

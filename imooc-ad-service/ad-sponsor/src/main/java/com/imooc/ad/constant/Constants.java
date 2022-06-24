@@ -12,5 +12,7 @@ public class Constants {
                 "Can not find the record";
         public static final String SAME_NAME_PLAN_ERROR =
                 "Plan with same name already exists";
+        public static final String SAME_NAME_UNIT_ERROR =
+                "Unit with same name already exists";
     }
 }

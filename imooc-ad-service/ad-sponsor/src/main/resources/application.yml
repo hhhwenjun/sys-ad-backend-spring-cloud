@@ -2,7 +2,7 @@ server:
   port: 7000
   servlet:
     # controller root path
-    context-path: /ad-sponsor
+    context-path: /ad-sponsor # controller 的前缀
 
 spring:
   application:

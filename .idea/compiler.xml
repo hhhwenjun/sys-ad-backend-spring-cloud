@@ -9,16 +9,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ad-eureka" />
         <module name="ad-gateway" />
+        <module name="ad-search" />
         <module name="ad-common" />
         <module name="ad-sponsor" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ad-searc" target="8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ad-common" options="-parameters" />
       <module name="ad-eureka" options="-parameters" />
       <module name="ad-gateway" options="-parameters" />
+      <module name="ad-searc" options="-parameters" />
+      <module name="ad-search" options="-parameters" />
       <module name="ad-sponsor" options="-parameters" />
       <module name="imooc-ad-service" options="-parameters" />
     </option>

@@ -1,4 +1,4 @@
-package com.imooc.ad.service.impl;
+package com.imooc.ad.service;
 
 import com.imooc.ad.vo.CreativeRequest;
 import com.imooc.ad.vo.CreativeResponse;

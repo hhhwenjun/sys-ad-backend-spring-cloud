@@ -1,12 +1,12 @@
 server:
-  port: 7000
+  port: 7001
   servlet:
     # controller root path
-    context-path: /ad-sponsor # controller 的前缀，sponsor-广告投放系统
+    context-path: /ad-search # controller 的前缀，sponsor-广告检索系统
 
 spring:
   application:
-    name: eureka-client-ad-sponsor
+    name: eureka-client-ad-search
   jpa:
     # orm 数据库增删查改
     show-sql: true # 打印语句
@@ -29,3 +29,12 @@ eureka:
     service-url:
       defaultZone: http://server1:8000/eureka/
 
+feign:
+  hystrix:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" # 暴露全部监控信息

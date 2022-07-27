@@ -2,6 +2,7 @@ package com.imooc.ad.service.impl;
 
 import com.imooc.ad.dao.CreativeRepository;
 import com.imooc.ad.entity.Creative;
+import com.imooc.ad.service.ICreativeService;
 import com.imooc.ad.vo.CreativeRequest;
 import com.imooc.ad.vo.CreativeResponse;
 import org.springframework.beans.factory.annotation.Autowired;
